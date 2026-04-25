@@ -1,0 +1,68 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Sai Teja Alasyam} % Your name
+\address{+1(602) 576-7785 \\ Tempe, AZ}
+\address{\href{mailto:saitejaalasyam@gmail.com}{saitejaalasyam@gmail.com} \\ \href{https://www.linkedin.com/in/alasyam-sai-teja-845446193/}{linkedin.com/in/alasyam-sai-teja-845446193} \\ \href{https://github.com/salasya2}{github.com/salasya2}}
+
+\begin{document}
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Research Aide} \hfill Oct 2024 -- Dec 2025\\
+W. P. Carey School of Business, Arizona State University \hfill \textit{Remote}
+ \begin{itemize}
+    \itemsep -3pt {}
+     \item Developed an end-to-end AI incident labeling platform using Python and Streamlit with causal classification and multilabel taxonomy support, reducing manual labeling overhead by 80\% across 2000 incidents.
+     \item Designed a Hierarchical Cooperative Multi-Agent Human-in-loop architecture with verbalized sampling prompts, decreasing runtime by 90\%.
+     \item Built a multimodal trajectory prediction pipeline on the Waymo Open Dataset using Google Gemma-2-9B with LoRA fine-tuning, integrating image-to-text encoding and intent prediction.
+     \item Migrated LLM codebase from Google Colab to AWS SageMaker Studio, enhancing scalability and reproducibility for production-level experimentation.
+ \end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{Education}
+
+{\bf Master of Computer Science}, Arizona State University \hfill {Dec 2025}\\
+CGPA: 4.0 \\
+Relevant Coursework: Data Mining, NLP, Statistical Machine Learning, Data Processing at Scale.
+
+\end{rSection}
+
+\begin{rSection}{PROJECTS}
+
+\textbf{Anime Recommendation System} \hfill Jan 2026 -- Feb 2026\\
+Python $\cdot$ LangChain $\cdot$ Groq $\cdot$ ChromaDB $\cdot$ Kubernetes $\cdot$ Docker $\cdot$ Helm $\cdot$ Grafana
+ \begin{itemize}
+    \itemsep -3pt {}
+  \item Built an end-to-end RAG-based recommendation system over a ChromaDB corpus using LangChain and Groq LLM, enabling semantic anime search via Streamlit.
+  \item Containerized with Docker and deployed to a Kubernetes (Minikube) cluster on GCP, exposing services in a production-like environment.
+  \item Reduced query latency by caching retriever pipeline and model initialization using @st.cache resource.
+  \item Integrated Grafana Cloud monitoring via Helm for real-time visibility into cluster health and performance.
+  \end{itemize}
+
+\textbf{Student Loan Repayment System} \hfill Oct 2025 -- Oct 2025\\
+React $\cdot$ FastAPI $\cdot$ MongoDB $\cdot$ Python
+ \begin{itemize}
+    \itemsep -3pt {}
+  \item Cut manual data entry 90\% by building an AI-assisted CSV importer with automated column mapping and a full-stack loan platform featuring real-time analytics.
+  \item Delivered a conversational AI chatbot with flow management and state-specific tax logic to personalize loan payoff projections.
+  \item Achieved sub-second p95 responses across admin and employee portals via async REST APIs, lazy-loaded React components, and optimized state management.
+  \end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & Python, C++, Java, SQL, Bash \\
+Frameworks \& Libraries & Transformers, LangChain, Streamlit, FastAPI, Django \\
+Cloud \& DevOps & AWS, GCP, Docker, Kubernetes, Helm, CI/CD, Grafana, Prometheus \\
+ML \& Data & PyTorch, HuggingFace, Sentence-Transformers, Vector Databases (ChromaDB), RAG Pipelines \\
+Systems \& Tools & Unix/Linux, Apache Kafka, Minikube, Git, REST APIs \\
+\end{tabular}
+\end{rSection}
+
+\end{document}

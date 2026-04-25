@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/resume-generator)",
+      "Bash(python -m claude_code skills run Resume-generator)",
+      "Bash(resume-generator *)",
+      "Bash(./resume-generator *)",
+      "Bash(pip list *)",
+      "Bash(pip install *)",
+      "Bash(python *)",
+      "Bash(node *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(tsc *)",
+      "Bash(del *)",
+      "Bash(npm run *)",
+      "Bash(npm i *)",
+      "Bash(pdflatex *)",
+      "Bash(choco install *)",
+      "Bash(winget install *)",
+      "Bash(miktex-update *'])",
+      "Bash(dir output* *)",
+      "Bash(ls -la output/*)",
+      "Bash(ren \"cv-candidate-Tech Innovators Inc..tex\" \"cv-candidate-Tech_Innovators_Inc..tex\")",
+      "Bash(pip show *)",
+      "Bash(copy *)",
+      "Bash(mkdir -p \"output/Amdocs\")",
+      "Bash(cp \"format/resume.cls\" \"output/Amdocs/resume.cls\")"
+    ]
+  }
+}

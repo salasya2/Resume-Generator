@@ -1,0 +1,15 @@
+Dear Hiring Team at Amdocs,
+
+I am writing to express my strong interest in the GenAI Engineer position at Amdocs. With a Master of Computer Science from Arizona State University (4.0 GPA) and a dedicated focus on building production-ready AI systems, I am eager to contribute to your mission of embedding Generative AI into mission-critical enterprise systems.
+
+Throughout my experience as a Research Aide at the W. P. Carey School of Business, I have focused on bridging the gap between AI research and scalable engineering. I developed an end-to-end GenAI-powered incident labeling platform that reduced manual labeling overhead by 80%, and designed a Hierarchical Cooperative Multi-Agent architecture that decreased model runtime by 90%. These projects required the exact blend of prompt engineering, LLM orchestration, and Python proficiency that Amdocs is seeking for its GenAI-powered tooling initiatives.
+
+My technical portfolio further aligns with your requirements for RAG and vector database expertise. I built a comprehensive RAG-based recommendation system using LangChain and ChromaDB, which I containerized with Docker and deployed via Kubernetes on GCP—demonstrating my ability to take an AI prototype and move it into a production-like environment. Additionally, my work on a full-stack loan repayment system utilizing FastAPI and React showcases my ability to build the intuitive interfaces necessary for AI tools to be effective in a corporate setting.
+
+I am particularly drawn to Amdocs' focus on legacy modernization. My experience migrating complex LLM workflows from Colab to AWS SageMaker Studio reflects my commitment to reproducibility and scalability, skills that are vital when updating legacy systems with modern AI capabilities. I am excited by the prospect of working under a Principal GenAI Engineer to deliver real enterprise-scale solutions.
+
+Thank you for your time and consideration. I look forward to the possibility of discussing how my background in LLM systems and full-stack engineering can help Amdocs accelerate its GenAI delivery programs.
+
+Sincerely,
+
+Sai Teja Alasyam

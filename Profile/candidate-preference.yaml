@@ -1,0 +1,48 @@
+preferences:
+  candidate_name: "Sai Teja Alasyam"
+  job_search:
+    seniority_target: "Entry-level"
+    actively_seeking: true
+    target_start_window: "Immediate to near-term"
+  visa:
+    requires_sponsorship: true
+    notes: "Needs employment visa sponsorship."
+  location:
+    current_location: "Tempe, Arizona, United States"
+    open_to_relocation: true
+    open_to_remote: true
+    open_to_hybrid: true
+    open_to_onsite: true
+  role_preferences:
+    preferred_roles:
+      - "AI Engineer"
+      - "Machine Learning Engineer"
+      - "LLM Engineer"
+      - "Software Engineer"
+      - "Applied Scientist"
+      - "Research Engineer"
+    preferred_focus_areas:
+      - "Applied machine learning"
+      - "LLM systems"
+      - "RAG applications"
+      - "Multimodal AI"
+      - "Full-stack AI products"
+      - "MLOps / LLMOps"
+    nice_to_have_domains:
+      - "Developer tools"
+      - "Cloud platforms"
+      - "Enterprise AI"
+      - "Research-heavy product teams"
+  work_environment:
+    values:
+      - "Strong engineering culture"
+      - "Practical AI deployment"
+      - "Cross-functional product ownership"
+      - "Opportunities to learn and ship quickly"
+  constraints_and_signals:
+    entry_level_candidate: true
+    sponsorship_required: true
+    relocation_flexible: true
+  metadata:
+    created_on: "2026-04-14"
+    purpose: "Reusable preference layer for resumes, job applications, and profile-tailoring workflows."

@@ -1,0 +1,73 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Sai Teja Alasyam} % Your name
+\address{+1(602) 576-7785 \\ Tempe, AZ}
+\address{\href{mailto:saitejaalasyam@gmail.com}{saitejaalasyam@gmail.com} \\ \href{https://www.linkedin.com/in/alasyam-sai-teja-845446193/}{linkedin.com/in/alasyam-sai-teja-845446193} \\ \href{https://github.com/salasya2}{github.com/salasya2}}
+
+\vspace{-30pt}
+\begin{document}
+
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Research Aide} \hfill Oct 2024 -- Dec 2025\\
+W. P. Carey School of Business, Arizona State University \hfill \textit{Remote}
+ \begin{itemize}
+    \itemsep -3pt {}
+     \item Orchestrated end-to-end AI workflows by developing a multimodal trajectory prediction pipeline on Waymo Open Dataset using Gemma-2-9B with LoRA fine-tuning, integrating image-to-text encoding and intent prediction.
+     \item Designed and implemented a Hierarchical Cooperative Multi-Agent Human-in-the-loop architecture with Verbalized sampling prompts, reducing runtime by 90\% and improving system reliability.
+     \item Built an end-to-end AI incident labeling platform (Python/Streamlit) with causal classification and multilabel taxonomy, reducing manual labeling overhead by 80\% across 2,000 incidents.
+     \item Migrated LLM codebase to AWS SageMaker Studio to enhance scalability, reproducibility, and system observability.
+ \end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Master of Computer Science}, Arizona State University \hfill {Dec 2025}\\
+CGPA: 4.0. Relevant Coursework: Natural Language Processing (NLP), Data Mining, Statistical Machine Learning, Data Processing at Scale.
+
+\end{rSection}
+\vspace{-5 pt}
+
+\begin{rSection}{PROJECTS}
+
+\textbf{Anime Recommendation System (LLMOps)} \hfill Jan 2026 -- Feb 2026\\
+Python $\cdot$ LangChain $\cdot$ Groq $\cdot$ ChromaDB $\cdot$ Docker $\cdot$ Kubernetes $\cdot$ Helm $\cdot$ Grafana
+ \begin{itemize}
+    \itemsep -3pt {}
+  \item Built an end-to-end RAG-based recommendation system enabling semantic search and conversational AI via Streamlit and Groq LLM.
+  \item Containerized with Docker and deployed to a Kubernetes cluster on GCP, integrating Grafana Cloud for real-time system observability and resource monitoring.
+  \item Optimized performance by caching retriever pipelines and model initialization, significantly reducing query latency.
+  \end{itemize}
+
+\textbf{Student Loan Repayment System} \hfill Oct 2025 -- Oct 2025\\
+React $\cdot$ FastAPI $\cdot$ MongoDB $\cdot$ Python
+ \begin{itemize}
+    \itemsep -3pt {}
+  \item Developed a full-stack AI-powered platform featuring an AI-assisted CSV importer with automated column mapping, reducing manual data entry by 90\%.
+  \item Engineered a conversational AI chatbot with state-specific logic to personalize loan projections, enhancing user experience and output structure.
+  \item Achieved sub-second p95 response times via async REST APIs and optimized state management in React.
+ \end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{SKILLS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+AI \& ML & PyTorch, Hugging Face, NLP, RAG Pipelines, LLM Orchestration, LoRA Fine-tuning, Multimodal Modeling \\
+Programming & Python, C++, Java, SQL, Bash \\
+Cloud \& DevOps & AWS, GCP, Docker, Kubernetes, Helm, CI/CD, Grafana, Prometheus \\
+Backend \& Data & FastAPI, Django, Streamlit, React, MongoDB, ChromaDB, Kafka, REST APIs \\
+\end{tabular}\\
+\end{rSection}
+
+\end{document}

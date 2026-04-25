@@ -1,0 +1,307 @@
+candidate:
+  name: "Sai Teja Alasyam"
+  current_target_title: "AI and Software Engineer"
+  professional_brand:
+    headline: "Applied ML, LLM systems, multimodal modeling, and full-stack product development"
+    summary: >
+      AI and software engineer with a profile centered on applied machine learning,
+      LLM systems, multimodal modeling, and full-stack product development. Combines
+      strong academic performance, research-oriented experimentation, and practical
+      system-building across cloud, data, and user-facing applications. Known for
+      turning AI prototypes into usable, measurable systems.
+    differentiators:
+      - "Builds end-to-end AI systems instead of isolated prototypes"
+      - "Bridges research experimentation with production-minded engineering"
+      - "Comfortable across modeling, deployment, data workflows, and product UX"
+      - "Strong fit for entry-level AI engineer, ML engineer, LLM engineer, and software engineer roles"
+
+  personal_info:
+    location: "Tempe, Arizona, United States"
+    work_authorization:
+      requires_visa_sponsorship: true
+      sponsorship_note: "Will require employment visa sponsorship."
+    relocation:
+      flexible_to_relocate: true
+      relocation_note: "Open to relocation for the right opportunity."
+    socials:
+      linkedIn: "https://www.linkedin.com/in/alasyam-sai-teja-845446193/"
+      github: "https://github.com/salasya2"
+
+  preferences:
+    job_search_stage: "Entry-level"
+    role_targets:
+      - "AI Engineer"
+      - "Machine Learning Engineer"
+      - "LLM Engineer"
+      - "Software Engineer"
+      - "Applied Scientist"
+      - "Research Engineer"
+      - "Full-Stack Engineer with AI focus"
+    employment_preferences:
+      - "Open to full-time roles"
+      - "Interested in applied AI and product-focused engineering environments"
+      - "Comfortable with research-heavy and engineering-heavy teams"
+
+  education:
+    - degree: "Master of Computer Science"
+      institution: "Arizona State University"
+      graduation_date: "2025-12"
+      gpa: "4.0/4.0"
+      academic_signal: "Strong technical rigor and consistency"
+      coursework:
+        - "Data Mining"
+        - "Natural Language Processing"
+        - "Statistical Machine Learning"
+        - "Data Processing at Scale"
+      interpretation: >
+        Coursework and GPA indicate strong preparation for intelligent systems work
+        that must operate on real data, at scale, and under deployment constraints.
+
+  experience:
+    - title: "Research Aide"
+      organization: "W. P. Carey School of Business, Arizona State University"
+      start_date: "2024-10"
+      end_date: "2025-12"
+      location: "Remote"
+      focus_areas:
+        - "Applied AI research"
+        - "Human-in-the-loop systems"
+        - "LLM orchestration"
+        - "Multimodal modeling"
+        - "Annotation tooling"
+      highlights:
+        - title: "AI incident labeling platform"
+          description: >
+            Built an end-to-end AI incident labeling platform in Python and Streamlit
+            supporting causal classification, multilabel taxonomies, and batch
+            annotation workflows with annotator-specific outputs.
+          impact:
+            - "Reduced repetitive manual effort across thousands of incidents"
+            - "Improved research workflow structure and scalability"
+          skills_demonstrated:
+            - "Python"
+            - "Streamlit"
+            - "Workflow automation"
+            - "Human-in-the-loop tooling"
+            - "Research product design"
+        - title: "Hierarchical cooperative multi-agent architecture"
+          description: >
+            Designed a hierarchical cooperative multi-agent system using verbalized
+            sampling prompts to improve runtime efficiency.
+          impact:
+            - "Improved runtime efficiency dramatically"
+            - "Demonstrated understanding of agent collaboration design and prompt strategy"
+          skills_demonstrated:
+            - "LLM orchestration"
+            - "Prompt engineering"
+            - "Agent architecture"
+            - "Performance optimization"
+        - title: "Waymo multimodal trajectory prediction"
+          description: >
+            Built multimodal trajectory prediction workflows on the Waymo Open Dataset
+            using Gemma-2-9B with LoRA fine-tuning, image-to-text encoding, contextual
+            prompt engineering, and intent prediction.
+          impact:
+            - "Worked at the intersection of multimodal reasoning and structured prediction"
+            - "Benchmarked adapted models against established baselines"
+          skills_demonstrated:
+            - "Gemma-2-9B"
+            - "LoRA fine-tuning"
+            - "Multimodal modeling"
+            - "Trajectory forecasting"
+            - "Evaluation"
+        - title: "Experimentation workflow migration"
+          description: >
+            Migrated LLM experimentation workflows from Google Colab to AWS SageMaker
+            Studio to improve reproducibility, environment consistency, and scalability.
+          skills_demonstrated:
+            - "AWS SageMaker"
+            - "Reproducible experimentation"
+            - "ML environment management"
+
+  projects:
+    - name: "Anime Recommendation System"
+      type: "LLMOps / RAG application"
+      source: "Resume and LinkedIn summary"
+      description: >
+        Retrieval-augmented recommendation application over an anime corpus, built
+        as a full-stack AI system rather than a prompt-only demo.
+      technologies:
+        - "Python"
+        - "LangChain"
+        - "Groq"
+        - "ChromaDB"
+        - "Streamlit"
+        - "Docker"
+        - "Kubernetes"
+        - "Helm"
+        - "Grafana Cloud"
+      capabilities:
+        - "Semantic retrieval"
+        - "Conversational recommendations"
+        - "Deployment and containerization"
+        - "Cluster orchestration"
+        - "Caching"
+        - "Monitoring"
+      signals:
+        - "Shows strong end-to-end LLM application architecture instincts"
+        - "Demonstrates retrieval, interface design, deployment, and observability"
+
+    - name: "Student Loan Repayment System"
+      type: "Full-stack product with embedded AI features"
+      source: "Resume and LinkedIn summary"
+      description: >
+        Productized software system built with React, FastAPI, MongoDB, and Python
+        to support loan import, analytics, projections, and conversational assistance.
+      technologies:
+        - "React"
+        - "FastAPI"
+        - "MongoDB"
+        - "Python"
+      capabilities:
+        - "AI-assisted CSV import"
+        - "Automated column mapping"
+        - "Real-time analytics"
+        - "Tax-aware loan projections"
+        - "Conversational chatbot"
+      signals:
+        - "Shows business-domain modeling plus practical AI integration"
+        - "Reflects strength in building products where AI is part of the experience, not the whole product"
+
+    - name: "Face Recognition Edge Computing System"
+      type: "Cloud and edge inference project"
+      source: "LinkedIn project summary"
+      description: >
+        Built a face recognition system using AWS edge and eventing services,
+        reflecting interest in inference close to the edge and cloud-triggered pipelines.
+      technologies:
+        - "AWS Greengrass"
+        - "AWS SQS"
+        - "AWS Lambda"
+      signals:
+        - "Demonstrates cloud-event pipelines and scalable deployment thinking"
+        - "Shows familiarity with edge computing patterns"
+
+    - name: "Bias Detection in LLMs"
+      type: "Model behavior and safety evaluation"
+      source: "LinkedIn project summary"
+      description: >
+        Explored behavioral or phishing-related bias detection in large language models.
+      signals:
+        - "Shows awareness of trust, safety, and model behavior issues"
+        - "Indicates evaluation-oriented thinking beyond generation quality"
+
+    - name: "Mathematical Reasoning Evaluation for LLMs"
+      type: "LLM evaluation project"
+      source: "LinkedIn project summary"
+      description: >
+        Evaluated mathematical reasoning performance in large language models with a
+        focus on rigorous assessment rather than surface-level generation quality.
+      signals:
+        - "Demonstrates interest in rigorous benchmarking and evaluation"
+
+    - name: "WebArena Agentic Reasoning Work"
+      type: "Agentic web reasoning project"
+      source: "LinkedIn project summary"
+      description: >
+        Extended or improved WebArena-style agentic web reasoning workflows involving
+        browser interaction and task-oriented intelligence.
+      signals:
+        - "Aligns with LLM agents, browser automation, and interactive reasoning"
+
+    - name: "RAG System for arXiv Papers"
+      type: "Domain-specific retrieval system"
+      source: "LinkedIn project summary"
+      description: >
+        Built a specialized retrieval-augmented generation system for arXiv papers,
+        reinforcing strength in search, retrieval, and domain-focused QA.
+      signals:
+        - "Reinforces capability in retrieval systems and knowledge access workflows"
+
+    - name: "Graph Processing and Streaming Analytics Platform"
+      type: "Distributed data and analytics system"
+      source: "LinkedIn project summary"
+      description: >
+        Built or worked on graph and streaming analytics systems using graph storage,
+        streaming infrastructure, containers, and backend services.
+      technologies:
+        - "Neo4j"
+        - "Kafka"
+        - "Docker"
+        - "Flask"
+        - "Kubernetes"
+      signals:
+        - "Shows exposure to distributed systems, event-driven processing, and data engineering"
+
+  strengths:
+    primary_domains:
+      - "LLM applications and agentic workflows"
+      - "RAG systems and vector databases"
+      - "Multimodal model adaptation and evaluation"
+      - "MLOps and LLMOps deployment patterns"
+      - "Full-stack product engineering"
+      - "Cloud and container orchestration"
+      - "Streaming, graph, and distributed data systems"
+      - "Human-in-the-loop AI tooling"
+    engineering_style:
+      - "Research-informed but product-oriented"
+      - "Infrastructure-aware"
+      - "Measurement and evaluation focused"
+      - "Comfortable across backend, ML, and UX layers"
+
+  skills:
+    languages:
+      - "Python"
+      - "C++"
+      - "Java"
+      - "SQL"
+      - "Bash"
+    ai_ml:
+      - "PyTorch"
+      - "Hugging Face Transformers"
+      - "Sentence-Transformers"
+      - "RAG pipelines"
+      - "Prompt engineering"
+      - "LoRA fine-tuning"
+      - "Multimodal modeling"
+      - "Evaluation and benchmarking"
+      - "LLMOps"
+    backend_full_stack:
+      - "FastAPI"
+      - "Django"
+      - "Streamlit"
+      - "React"
+      - "REST APIs"
+      - "MongoDB"
+    infra_devops:
+      - "AWS"
+      - "GCP"
+      - "Docker"
+      - "Kubernetes"
+      - "Helm"
+      - "Grafana"
+      - "Prometheus"
+    data_systems:
+      - "ChromaDB"
+      - "Neo4j"
+      - "Kafka"
+
+  role_fit_summary:
+    concise_pitch: >
+      Entry-level AI and software engineer who combines graduate-level ML rigor with
+      hands-on experience building LLM systems, multimodal workflows, and full-stack
+      applications that can be deployed, monitored, and used in practice.
+    ideal_team_types:
+      - "Applied AI product teams"
+      - "ML platform teams"
+      - "LLM feature teams"
+      - "Research engineering teams"
+      - "Full-stack teams integrating AI into user workflows"
+
+  metadata:
+    created_on: "2026-04-14"
+    source_basis:
+      - "User-provided narrative profile"
+      - "Local resume HTML summary"
+    notes:
+      - "Some LinkedIn project descriptions are summarized from the user narrative and may need later verification against original project links."
