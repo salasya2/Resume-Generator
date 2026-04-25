@@ -1,4 +1,4 @@
-# AI-Powered Tailored Resume Generator
+# AI-Powered Tailored Resume Generator (To be Run using Claude Code)
 
 An intelligent system designed to create highly customized, ATS-optimized resumes and cover letters by aligning a candidate's master profile with specific job descriptions.
 
